@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg"  href="/v-engine (1).svg">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="respovidade.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <aside>
+        <h1>Motor Health</h1>
+        <div class="graficos">
+            <ul>
+                <li>Home</li>
+                <ul>Gráficos Temperaturas Motores
+                    <li><a href="/index/barra.html">Barra</a></li>
+                    <li><a href="/index/linha.html">Linha</a></li>
+                    <li><a href="/index/pizza.html">Pizza</a></li>
+                    <li><a href="/index/rosca.html">Rosca</a></li>
+                    <li><a href="/index/radar.html">Radar</a></li>
+                </ul>
+
+            </ul>
+        </div>
+    </aside>
+    
+    
+    <div class="card-graficos">
+        <figure class="zoom">
+            <canvas id="grafico-1"></canvas>
+        </figure>
+
+        <figure class="zoom">
+             <canvas id="grafico-2"></canvas>
+        </figure>
+
+    </div>
+    
+    
+    <script src="/index.js"></script>
+</body>
+</html>
