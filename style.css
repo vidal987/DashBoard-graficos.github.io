@@ -11,6 +11,10 @@ a {
     text-decoration: none;
     color: black;
 }
+p {
+   font-size: 14px;
+   line-height: 20px;
+}
 body {
     display: flex;
     background: #1b1b2f;
@@ -31,7 +35,7 @@ aside {
 }
 h1 {
     font-family: 'Anton', sans-serif;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 
@@ -142,6 +146,40 @@ box {
 
   .title {
        text-align: center;
+  }
+
+  main {
+      margin-left: 30vw;
+  }
+
+  .contato {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 150px;
+  }
+
+  figure p {
+    line-height: 12;
+  }
+
+
+  .card-contact {
+      display: flex;
+      flex-direction: column;
+      background: #e43f5a;
+      width: 250px;
+      padding: 20px;
+      align-items: center;
+      box-shadow: 10px 5px 10px  rgba(000,000,000, 0.5);
+      border: 1px solid rgba(000,000,000, 0.5);
+      border-radius: 8px;
+  }
+
+  .card-contact figure img {
+    height: 30px;  
+    width: 30px;
   }
  
 
