@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     
 }
 a {
@@ -33,9 +33,12 @@ aside {
     position: fixed;
     
 }
-h1 {
+aside h1 {
     font-family: 'Anton', sans-serif;
+    font-size: 26px;
     margin-top: 10px;
+    color: #e43f5a;
+    letter-spacing: 2px;
 }
 
 
@@ -59,6 +62,9 @@ h1 {
     margin: 5px 5px;
     border-radius: 2px;
     box-shadow: 10px 5px 5px rgba(000,000,000, 0.5);
+}
+.graficos ul, p{
+    font-size: 17px;
 }
 
 li:hover {
@@ -89,7 +95,13 @@ li:hover {
     -moz-box-shadow: 10px 5px 5px rgba(000,000,000, 0.5);
     margin: 15px;
 }
-
+.card-graficos h1{
+    font-family: 'Anton', sans-serif;
+    color: #e43f5a;
+}
+.card-graficos h2{    
+    color: #e43f5a;
+}
 .zoom {
     transition: transform .2s; /* Animation */
 }
@@ -181,6 +193,3 @@ box {
     height: 30px;  
     width: 30px;
   }
- 
-
-
