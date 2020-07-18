@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="respovidade.css">
     <title>Gráficos de Rosca</title>
 </head>
+
 <body>
     <aside>
         <h1>Motor Health</h1>
@@ -22,7 +23,7 @@
                     <li><a href="/index/linha.html">Gráfico de Linha</a></li>
                     <p>sdadasdasdasdad</p>
                     <li><a href="/index/pizza.html">Gráfico de Pizza</a></li>
-                    <p>asdasdadadasdasd</p>
+                    <p>Comparação da Temperatura dos Motores por uso do Carro</p>
                     <li><a href="/index/rosca.html">Gráfico de Rosca</a></li>
                     <p>Comparação de temperatura por hora</p>
                     <li><a href="/index/radar.html">Gráfico de Radar</a></li>
@@ -37,17 +38,20 @@
     
     
     <div class="card-graficos">
+        <h1>Temperatura do Motor nas 4 Estações do Ano em °C</h1>
+
+        <h2>Temperatura de um Carro Novo(1 ano de uso)</h2>
         <figure class="zoom">
             <canvas id="grafico-1"></canvas>
         </figure>
 
+        <h2>Temperatura de um Carro Antigo(10 anos de uso)</h2>
         <figure class="zoom">
              <canvas id="grafico-2"></canvas>
         </figure>
 
     </div>
-    
-    
-    <script src="/index.js"></script>
+        
+    <script src="/js/rosca.js"></script>
 </body>
 </html>
