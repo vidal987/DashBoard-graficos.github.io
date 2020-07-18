@@ -7,8 +7,13 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="respovidade.css">
-    <title>Gráficos de Pizza</title>
+    <title>Gráficos de Rosca</title>
 </head>
+<style>
+    h2{
+        font-size: 32px;
+    }
+</style>
 <body>
     <aside>
         <h1>Motor Health</h1>
@@ -28,26 +33,29 @@
                     <li><a href="/index/radar.html">Gráfico de Radar</a></li>
                     <p>Desenvolvedores do projeto</p>
                     <li><a href="/index/contatos.html">Desenvolvedores</a></li>
-
+ 
                 </ul>
-
+ 
             </ul>
         </div>
     </aside>
     
     
     <div class="card-graficos">
+        <h1>Temperatura do Motor com o passar das Horas em °C</h1>
+ 
+        <h2>Temperatura de uma Lamborghini</h2>
         <figure class="zoom">
             <canvas id="grafico-1"></canvas>
         </figure>
-
+ 
+        <h2>Temperatura de uma Maserati</h2>
         <figure class="zoom">
              <canvas id="grafico-2"></canvas>
         </figure>
-
+ 
     </div>
-    
-    
-    <script src="/index.js"></script>
+        
+    <script src="/js/pizza.js"></script>
 </body>
 </html>
