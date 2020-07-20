@@ -48,7 +48,7 @@ function criarGrafico(idGrafico, dados, cor){
   let Temp = Dados.map(value => {return value.Temperatura})
   
   var dadosGrafico1 = {
-    "indicador": "Temperatura °C por hora ligado - Mercedez-Bens",
+    "indicador": "Temperatura °C por hora ligado - Mercedes-AMG GT",
     "RótuloX": TempoLigado,
     "dados": Temp
   }
